@@ -3,10 +3,10 @@ name: Lint
 on:
   push:
     branches:
-      - Actions
+      - YOUR_BRANCH_NAME
   pull_request:
     branches:
-      - Actions
+      - YOUR_BRANCH_NAME
 
 jobs:
   run-linters:
